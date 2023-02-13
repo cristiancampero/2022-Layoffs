@@ -1,44 +1,91 @@
-<h1 align="center">Proyecto de Limpieza, Exploración y Visualización de Datos</h1>
+
+<h1 align="center">2022 Layoffs</h1>
+
 
 <br>
+
+## Proyecto de Limpieza, Exploración y Visualización de Datos
 
 <p align="center"><img src="screenshots\tableau_image.png"/></p> 
 
-<br>
-
-## Limpieza de datos con Excel
 ---
-Para la limpieza de datos, se utilizó Excel para realizar tareas como:
-
-- Eliminación de excesos de espacios
-- Eliminación de registros que no coincidan con el año 2022
-- Corrección de errores de formato
 
 <br>
 
-## Exploración de datos con SQL
----
-
-Para explorar los datos limpiados, se utilizó SQL para realizar consultas y obtener información útil sobre los datos. Algunas de las consultas realizadas fueron:
-
-- Suma total de despidos en 2022
-- Empresas que más han despedido
-- Industrias que más han despedido
-- Países que más han despedido
-- Empresas que más veces realizaron despidos
-- Meses de mayores despidos
+## Contenido:
 
 <br>
 
-## Visualización de datos con Tableau
+### Sección 1: Limpieza de datos con Excel:
+
+</br>
+
+✅ Eliminar Duplicados
+
+✅ Eliminar filas que no correspondan al año 2022
+
+✅ Eliminar filas con celdas vacías
+
+Considerando que la columna "total_laid_off" es crítica para el análisis, solo interesa las empresas que tengan el número de despidos.
+
+
+</br>
+
 ---
 
-Para visualizar los datos de manera atractiva y fácilmente comprensible, se utilizó Tableau para crear gráficos. Algunos tipos de visualizaciones creadas incluyen:
-
-- Gráficos de barras para comparar cantidades
-- Gráfico de líneas para mostrar tendencias
-- Gráfico de árbol para mostrar jerarquías
-- Gráfico de burbujas para comparar cantidades
+</br>
 
 
-Visualización en [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/Libro1_16711399534480/Dashboard1)
+### Sección 2: Exploración de datos con SQL y visualización con Tableau:
+
+</br>
+
+✅ Suma total de despedidos
+
+<p align="center"><img src="screenshots\despedidos.png"/></p> 
+
+✅ Cantidad de despidos ocurridos en el año
+
+<p align="center"><img src="screenshots\ocaciones.png"/></p> 
+
+✅ N° de despidos por Empresa
+
+<p align="center"><img src="screenshots\despidos_empresa.png"/></p> 
+
+✅ N° de despidos por Industria
+
+<p align="center"><img src="screenshots\despidos_industria.png"/></p> 
+
+✅ N° de despidos por país
+
+<p align="center"><img src="screenshots\despidos_pais.png"/></p> 
+
+</br>
+
+Ver todas las consultas realizadas para este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/queries.sql)
+
+
+
+</br>
+
+---
+
+</br>
+
+
+## Tableau
+
+Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/2020Layoffs/Dashboard1)
+
+
+
+</br>
+
+---
+
+</br>
+
+
+## Dataset
+
+Puedes descargar el dataset utilizado para este proyecto desde aquí: https://www.kaggle.com/datasets/swaptr/layoffs-2022 
