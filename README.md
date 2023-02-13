@@ -6,7 +6,7 @@
 
 ## Proyecto de Limpieza, Exploración y Visualización de Datos
 
-<p align="center"><img src="screenshots\tableau_image.png"/></p> 
+<p align="center"><img src="screenshots\tableau_dashboard.png"/></p> 
 
 ---
 
