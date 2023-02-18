@@ -26,8 +26,6 @@
 
 ✅ Eliminar filas con celdas vacías
 
-Considerando que la columna "total_laid_off" es crítica para el análisis, solo interesa las empresas que tengan el número de despidos.
-
 
 </br>
 
@@ -65,26 +63,19 @@ Considerando que la columna "total_laid_off" es crítica para el análisis, solo
 Ver todas las consultas realizadas para este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/queries.sql)
 
 
-
 </br>
+
 
 ---
-
-</br>
-
 
 ## Tableau
 
 Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/2020Layoffs/Dashboard1)
 
 
-
 </br>
 
 ---
-
-</br>
-
 
 ## Dataset
 
