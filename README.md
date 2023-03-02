@@ -40,11 +40,11 @@
 
 ✅ Suma total de despedidos
 
-<p align="center"><img src="screenshots\despedidos.png"/></p> 
+<p align="center"><img src="screenshots\empleados_despedidos.png"/></p> 
 
 ✅ Cantidad de despidos ocurridos en el año
 
-<p align="center"><img src="screenshots\ocaciones.png"/></p> 
+<p align="center"><img src="screenshots\despidos.png"/></p> 
 
 ✅ N° de despidos por Empresa
 
