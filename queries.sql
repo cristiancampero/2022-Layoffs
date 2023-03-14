@@ -44,11 +44,26 @@ ORDER BY 2 DESC;
 
 
 ---------------------------------------------------------------------------------------------
+-- Promedio de empleados despedidos por industria
+SELECT industry, AVG(total_laid_off) AS 'Promedio de empleados despedidos'
+FROM layoffs
+GROUP BY MONTH(date), industry
+ORDER BY 2 DESC;
+
+
+---------------------------------------------------------------------------------------------
 -- N° de despedidos por mes
 SELECT SUM(total_laid_off) AS total, monthname(str_to_date(date, '%d/%m/%Y')) AS mes
 FROM layoffs
 GROUP BY mes
 ORDER BY total DESC;
+
+
+---------------------------------------------------------------------------------------------
+-- Promedio de despedidos por mes
+SELECT AVG(total_laid_off) AS 'Promedio de despedidos por mes'
+FROM layoffs
+GROUP BY MONTH(date);
 
 
 ---------------------------------------------------------------------------------------------
