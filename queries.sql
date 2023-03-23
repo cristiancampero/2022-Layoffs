@@ -72,3 +72,27 @@ SELECT country AS pais, SUM(total_laid_off) AS total
 FROM layoffs
 GROUP BY pais
 ORDER BY total DESC;
+
+
+------------------------------------------------------
+-- N° de despidos por mes y por Empresa
+SELECT company AS Empresa, monthname(str_to_date(date, '%d/%m/%Y')) AS Mes, sum(total_laid_off) AS Total
+FROM layoffs
+GROUP BY Empresa, mes
+ORDER BY Empresa, MONTH(str_to_date(mes, '%M')) ASC;
+
+
+------------------------------------------------------
+-- N° de despidos por mes y por país
+SELECT country AS pais, monthname(str_to_date(date, '%d/%m/%Y')) AS mes, SUM(total_laid_off) AS total
+FROM layoffs
+GROUP BY pais, mes
+ORDER BY pais, MONTH(str_to_date(mes, '%M')) ASC;
+
+
+------------------------------------------------------
+-- N° de despidos por mes y por industria
+SELECT industry AS Industria, monthname(str_to_date(date, '%d/%m/%Y')) AS Mes, sum(total_laid_off) AS Total
+FROM layoffs
+GROUP BY industria, mes
+ORDER BY industria, MONTH(str_to_date(mes, '%M')) ASC
