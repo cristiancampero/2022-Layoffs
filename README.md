@@ -15,7 +15,7 @@
 
 ## Tableau
 
-Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/new2022Layoffs_16884105078920/Dashboard)
+Puedes ver el dashborad interactivo en mi perfil de [Tableau Public](https://public.tableau.com/app/profile/cristiancampero/viz/new2022Layoffs_16884105078920/Dashboard)
 
 </br>
 
