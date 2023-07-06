@@ -15,7 +15,7 @@
 
 ## Tableau
 
-Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/2020Layoffs/Dashboard1)
+Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://public.tableau.com/app/profile/cristiancampero/viz/new2022Layoffs_16884105078920/Dashboard)
 
 </br>
 
@@ -67,7 +67,7 @@ Puedes ver el dashborad interactivo en mi perfil de [Tableou Public](https://pub
 
 ## Reporte
 
-Puedes ver el reporte de este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/tech_layoffs_2022.pdf)
+Puedes ver el reporte de este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/tech_layoffs_2022_report.pdf)
 
 </br>
 
