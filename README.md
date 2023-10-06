@@ -1,88 +1,57 @@
 
 <h1 align="center">Tech Layoffs 2022</h1>
 
-
-<br>
-
-<h2 align="center">Proyecto de Limpieza, Exploración y Visualización de Datos</h2>
-
 <br>
 
 <p align="center"><img src="screenshots\tech_layoffs_dashboard.png"/></p> 
 
----
-<br>
-
-## Tableau
-
-Puedes ver el dashborad interactivo en mi perfil de [Tableau Public](https://public.tableau.com/app/profile/cristiancampero/viz/new2022Layoffs_16884105078920/Dashboard)
-
-</br>
-
----
 
 
-## Contenido:
+## Contexto
 
-<br>
+Preguntas:
 
-## Sección 1: Limpieza de datos con Excel:
-
-</br>
-
-✅ Eliminación de registros duplicados e irrelevantes.
-
-✅ Corrección de tipos de datos
-
-
-</br>
-
----
-
-</br>
+- ¿Cuál es la suma total de despedidos?
+- ¿Cuáles son las empresas que más veces despidieron en el año?
+- ¿Cuáles son las empresas que realizaron más de un despido en un mismo mes?
+- ¿Cantidad de despedidos por empresa?
+- ¿Cantidad de despedidos por industria?
+- ¿Cantidad de despedidos por mes?
+- ¿Cantidad de despedidos por país?
 
 
-## Sección 2: Exploración de datos con SQL y visualización con Tableau:
+## Conjunto de datos
 
-</br>
+- Los datos utilizados en este proyecto están disponibles [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/files/layoffs.xlsx).
+- Originalmente la fuente de datos proviene de https://www.kaggle.com/datasets/swaptr/layoffs-2022. 
 
 
-<p align="center"><img src="screenshots\despidos_por_empresa.png"/></br>✅ Despidos por Empresa</p> 
+## Herramientas utilizadas en el proyecto
 
-</br>
+- Para la limpieza de datos se utilizó Excel
+- Para recopilar información y responder las preguntas se utilizó MySQL.
+- El dashboard fue creado con Tableau.
 
-<p align="center"><img src="screenshots\despidos_por_pais.png"/></br> ✅ Despidos por País</p> 
 
-</br>
+## Limpieza de datos
 
-<p align="center"><img src="screenshots\despidos_por_industria.jpg"/></br> ✅ Despidos por Industria</p> 
+- Eliminación de campos incompletos y/o nulos.
+- Eliminación de duplicados.
+- Eliminación de datos irrelevantes para el análisis.
+- Corrección de formatos.
 
-</br>
+## Análisis exploratorio
 
-<p align="center"><img src="screenshots\despidos_por_mes.png"/></br> ✅ Despidos por Mes</p> 
+- El análisis fue realizado usando MySQL, puedes ver todas las consultas realizadas en este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/files/queries.sql).
 
-</br>
+## Visualización
 
----
+- El dashborad lo encuentras en mi perfil de [Tableau Public](https://public.tableau.com/app/profile/cristiancampero/viz/new2022Layoffs_16884105078920/Dashboard)
+
+## Conclusión
+Los despidos en el sector tecnológico durante el año 2022 han sido impulsados por varios factores, como la sobrecontratación durante la pandemia. Grandes empresas como Meta, Twitter y Amazon han experimentado despidos masivos, mientras que la disminución de los ingresos por publicidad ha llevado a que las marcas gasten menos en anuncios digitales. Esto ha afectado negativamente a muchas empresas de tecnología que dependían de la publicidad como una de sus principales fuentes de ingresos.
 
 ## Reporte
 
-Puedes ver el reporte de este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/tech_layoffs_2022_report.pdf)
+Puedes descargar el reporte de este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/tech_layoffs_2022_report.pdf)
 
-</br>
-
----
-
-
-## Consultas
-
-Ver todas las consultas realizadas para este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/queries.sql)
-
-
-</br>
-
----
-
-## Dataset
-
-Puedes descargar el dataset utilizado para este análisis desde aquí: https://www.kaggle.com/datasets/swaptr/layoffs-2022 
