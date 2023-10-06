@@ -42,7 +42,7 @@ Preguntas:
 
 ## Análisis exploratorio
 
-- El análisis fue realizado usando MySQL, puedes ver todas las consultas realizadas en este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/files/queries.sql).
+- El análisis fue realizado usando MySQL, puedes ver todas las consultas realizadas en este análisis [aquí](https://github.com/cristiancampero/2022-Layoffs/blob/main/queries.sql).
 
 ## Visualización
 
